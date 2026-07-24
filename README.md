@@ -61,7 +61,7 @@
 - Discuss recent publications using SeQUeNCe. Topics include:
   - Distributed quantum computing and sensing
   - Adaptive continuous protocol simulation
-  - The Trajectory backend
+  - The metrics module
   - Heterogeneous quantum networks
   - The stabilizer formalism quantum manager
 
