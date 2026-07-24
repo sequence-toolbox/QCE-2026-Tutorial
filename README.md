@@ -8,18 +8,61 @@
 <h3><p align="center">Quantum Networking in SeQUeNCe: Customizable, Scalable, Easy Debugging</p></h3>
 
 
+---
 
-<div align="center">
+## Tutorial Agenda
 
-[![PyPi](https://img.shields.io/pypi/v/sequence)](https://pypi.org/project/sequence/)
-![pyversions](https://img.shields.io/pypi/pyversions/sequence)
-[![Documentation](https://img.shields.io/readthedocs/sequence-rtd-tutorial)](https://sequence-rtd-tutorial.readthedocs.io/)
-[![Qutip](https://img.shields.io/badge/integration%20-Qutip-blue)](https://qutip.org/)
-[![Paper](https://img.shields.io/badge/10.1088%2F2058-9565%2Fac22f6?label=DOI)](https://iopscience.iop.org/article/10.1088/2058-9565/ac22f6)
-[![PyPI Downloads](https://static.pepy.tech/badge/sequence/month)](https://pepy.tech/projects/sequence)
-<!-- [![Download-month](https://img.shields.io/pypi/dm/sequence)](https://pypistats.org/packages/sequence) -->
+### Introduction to Quantum Networks (10 min)
 
-</div>
+- Quantum communication basics
+- Quantum communication use cases, benefits, state-of-the-art, and challenges
 
-- The teleportation tutorial works on SeQUeNCe version 0.7.5 and above
-- The plug-in tutorial works on SeQUeNCe version 0.7.6 only
+### Introduction to SeQUeNCe (20 min)
+
+- What is SeQUeNCe
+- Motivation
+- Basic architecture
+- How SeQUeNCe distinguishes itself from others
+
+### Design, Interface, Capabilities, and Limitations (25 min)
+
+- Modular design and customizability
+- API and GUI
+- Simulation of quantum network devices and protocols
+- Limitations of SeQUeNCe and discrete-event simulation
+
+### Live Demo of SeQUeNCe (25 min)
+
+- Setup and configuration
+- Simulation of a simple network and traffic
+- Metrics
+- Cross-validation work
+
+### Exercise 1: Setup and Configuration (10 min)
+
+- Attendees will download and set up SeQUeNCe
+- Attendees will become familiar with the SeQUeNCe GUI
+
+---
+
+## End of First 90 Minutes: Break
+
+### Exercise 2: Simulation (25 min)
+
+- Attendees will run a simple quantum communication simulation involving entanglement generation and teleportation among a few nodes.
+
+### Exercise 3: Three Ways to Customize SeQUeNCe (25 min)
+
+- Attendees will customize the simulation by importing classes from SeQUeNCe into their own repository.
+- Attendees will customize the simulation by dynamically loading different entanglement-generation classes.
+
+### Advanced Concepts and New Features (30 min)
+
+- Discuss recent publications using SeQUeNCe. Topics include:
+  - Distributed quantum computing and sensing
+  - Adaptive continuous protocol simulation
+  - The Trajectory backend
+  - Heterogeneous quantum networks
+  - The stabilizer formalism quantum manager
+
+### Discussion and Q&A (10 min)
