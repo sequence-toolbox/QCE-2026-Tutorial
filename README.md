@@ -6,3 +6,5 @@
 </p>
 
 <h3><p align="center">Quantum Networking in SeQUeNCe: Customizable, Scalable, Easy Debugging</p></h3>
+
+For the tutorial agenda, please see the [agenda webpage](https://events.cels.anl.gov/event/940/)
