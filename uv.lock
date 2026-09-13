@@ -1608,11 +1608,15 @@ name = "qce-2026-tutorial"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "ipykernel" },
     { name = "sequence" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "sequence", specifier = ">=1.2.0" }]
+requires-dist = [
+    { name = "ipykernel", specifier = ">=7.3.0" },
+    { name = "sequence", specifier = ">=1.2.0" },
+]
 
 [[package]]
 name = "qutip"
